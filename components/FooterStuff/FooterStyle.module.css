@@ -1,0 +1,6 @@
+.footer {
+	padding: var(--pad);
+	text-align: center;
+	background-color: var(--dark);
+	margin-top: auto;
+}

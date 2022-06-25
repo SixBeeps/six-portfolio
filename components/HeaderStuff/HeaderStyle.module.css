@@ -1,0 +1,47 @@
+.header {
+	position: sticky;
+	top: 0;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: stretch;
+	align-items: stretch;
+	
+	height: 64px;
+	padding: 0;
+	background-color: var(--dark);
+}
+
+.headerButton {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0;
+	padding: 0 8px;
+	
+	background-size: 100% 200%;
+	background-image: linear-gradient(to bottom, transparent 50%, var(--darker) 50%);
+	transition: background-position var(--transition-time);
+
+	cursor: pointer;
+	user-select: none;
+}
+
+.headerButton:hover {
+	background-position: 0 -90%;
+	color: var(--mid);
+}
+
+.headerButton > span {
+	text-align: center;
+}
+
+.logo {
+	position: relative;
+	width: 32px;
+	margin: 16px 8px;
+	user-select: none;
+}

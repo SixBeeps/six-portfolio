@@ -1,0 +1,18 @@
+.card {
+	height: 100vh;
+	padding: 32px;
+	overflow: hidden;
+	font-size: larger;
+}
+
+.card > h1 {
+	font-size: min(20vh, 10vw);
+}
+
+.dark {
+
+}
+
+.light {
+	background: var(--dark);
+}

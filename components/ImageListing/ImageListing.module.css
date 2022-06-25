@@ -1,0 +1,50 @@
+.list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+}
+
+.card {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	margin: var(--pad) 0;
+	padding: var(--pad);
+	border: 2px solid var(--dark);
+	border-radius: var(--rounding);
+	width: 40%;
+}
+
+@media (max-width: 1000px) {
+	.list {
+		flex-direction: column;
+	}
+
+	.card {
+		width: 90%;
+	}
+}
+
+.contents {
+	padding: 0 var(--pad);
+}
+
+.contents > * {
+	margin: 0;
+}
+
+.text{
+	font-size: 14pt;
+	word-break: break-all;
+	line-height: 0;
+}
+
+.title {
+	text-align: left;
+	font-size: 16pt;
+	font-weight: bold;
+}

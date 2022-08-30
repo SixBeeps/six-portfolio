@@ -57,6 +57,11 @@ ul {
 	padding-inline-start: 0;
 }
 
+article {
+	max-width: 800px;
+	margin: auto;
+}
+
 .centerme {
 	text-align: center;
 }

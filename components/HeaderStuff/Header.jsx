@@ -7,7 +7,7 @@ function Header() {
 	return (
 		<div className={headerStyles.header}>
 			<div className={headerStyles.logo}>
-				<Image src="/sixbeepslogo.png" layout="fill" objectFit='contain' />
+				<Image src="/sixbeepslogo.png" layout="fill" objectFit='contain' alt="SixBeeps" />
 			</div>
 			<Hbutton href="/" value="Home" />
 			<Hbutton href="/projects" value="Projects" />

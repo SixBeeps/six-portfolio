@@ -23,7 +23,7 @@ export default function Home() {
           <i>Digests health advice into a readable format</i>
         </ImageCard>
         <ImageCard src="/projects/whisker.png" size="96" title="Whisker">
-          <Link href="https://relay-jam-3.epicgamer007.repl.co/">Visit website</Link><br />
+          <Link href="https://relay-jam.epicgamer007.repl.co/sequencer/">Visit website</Link><br />
           <i>Simple music sequencing tool</i>
         </ImageCard>
       </ImageListing>

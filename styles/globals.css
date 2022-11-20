@@ -57,6 +57,11 @@ ul {
 	padding-inline-start: 0;
 }
 
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 article {
 	max-width: 800px;
 	margin: auto;

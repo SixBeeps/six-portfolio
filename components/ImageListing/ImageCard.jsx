@@ -6,7 +6,7 @@ class ImageCard extends React.Component {
 	render() {
 		return (
 			<div className={listStyles.card}>
-				<Image src={this.props.src} width={this.props.size} height={this.props.size} objectFit="cover" />
+				<Image src={this.props.src} width={this.props.size} height={this.props.size} objectFit="cover" alt="" />
 				<div className={listStyles.contents}>
 					<h3 className={listStyles.title}>{this.props.title}</h3>
 					<span className={listStyles.text}>

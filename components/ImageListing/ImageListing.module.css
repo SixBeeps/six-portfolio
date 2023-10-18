@@ -22,7 +22,7 @@
 	transition: all var(--transition-time) linear;
 }
 
-.card:hover {
+.interactable:hover {
 	box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.75);
 	top: -6px;
 }

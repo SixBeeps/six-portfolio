@@ -45,6 +45,14 @@ export default function Home() {
           <Link href="https://twrb.sixbeeps.com">Visit website</Link><br />
           <i>Small Twine story based on Space Station 13</i>
         </ImageCard>
+        <ImageCard src="/projects/cubegame.png" size="96" title="Cube Game Online">
+          <Link href="https://cubegame.sixbeeps.com">Visit website</Link><br />
+          <i>Really simple &quot;game&quot; using Socket.io</i>
+        </ImageCard>
+        <ImageCard src="/projects/couldve.png" size="96" title="could&apos;ve">
+          <Link href="https://couldve.sixbeeps.com">Visit website</Link><br />
+          <i>What you could&apos;ve done with your life</i>
+        </ImageCard>
       </ImageListing>
       <Footer />
     </div>

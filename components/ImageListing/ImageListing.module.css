@@ -9,6 +9,7 @@
 
 .card {
 	display: flex;
+	position: relative;
 	flex-direction: row;
 	justify-content: left;
 	/* align-items: center; */
@@ -17,11 +18,13 @@
 	width: 40%;
 	background-color: var(--dark);
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-	transition: all var(--transition-time);
+	top: 0;
+	transition: all var(--transition-time) linear;
 }
 
 .card:hover {
 	box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.75);
+	top: -6px;
 }
 
 @media (max-width: 1000px) {

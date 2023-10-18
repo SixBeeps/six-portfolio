@@ -14,7 +14,6 @@ export default function Home() {
       <LandingCard theme="dark">
         <h1>Hellooooooo.</h1>
         <h2>I&apos;m SixBeeps</h2>
-        <h2>🚧 Careful, this site is still being developed! 🚧</h2>
       </LandingCard>
       <LandingCard theme="light">
         <h1>Who am I?</h1>

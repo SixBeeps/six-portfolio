@@ -26,6 +26,10 @@ export default function Home() {
           <Link href="https://relay-jam-3.epicgamer007.repl.co/">Visit website</Link><br />
           <i>Simple music sequencing tool</i>
         </ImageCard>
+        <ImageCard src="/projects/cyan.png" size="96" title="Project Cyan" interactable>
+          <Link href="https://csds-393-chisel-cyan.vercel.app">Visit website</Link><br />
+          <i>Plan courses based on schedule and reviews</i>
+        </ImageCard>
       </ImageListing>
       <h2>Smaller Web Toys</h2>
       <ImageListing>

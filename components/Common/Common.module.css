@@ -1,0 +1,19 @@
+.chip {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 6px 10px;
+	border-radius: 100vh;
+	text-align: center;
+	font-size: small;
+}
+
+.dark {
+	background-color: var(--darkest);
+	color: var(--lighter);
+}
+
+.light {
+	background-color: var(--lighter);
+	color: var(--darkest);
+}

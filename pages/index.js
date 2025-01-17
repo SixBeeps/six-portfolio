@@ -24,7 +24,7 @@ export default function Home() {
         <h1>Hellooooooo.</h1>
         <h2>I&apos;m SixBeeps</h2>
         <p>You might know me as a developer interested in full-stack web development and cloud computing.</p>
-        <p>You might also know me as an a music producer and DJ through a number of FL Studio and EDM adjacent communities.</p>
+        <p>You might also know me as a music producer and DJ through a number of FL Studio and EDM adjacent communities.</p>
         <p>Or, you might not know me at all.</p>
         <p>Either way, welcome to my very green and mildly humble abode on the internet.</p>
       </LandingCard>

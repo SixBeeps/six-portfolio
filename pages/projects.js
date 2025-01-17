@@ -37,7 +37,7 @@ export default function Home() {
               title="LQWBot"
               size={100}
             >
-              <p>Site for understanding and learning about medical symptoms</p>
+              <p>Discord bot for tracking what users think of one another</p>
             </CleanImageCard>
           </CleanImageListing>
           <br />

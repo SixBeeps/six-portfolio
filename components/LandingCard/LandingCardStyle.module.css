@@ -26,6 +26,10 @@
 		font-size: min(4rem, 6vw);
 		margin: 1rem;
 		margin-bottom: 2rem;
+		text-decoration: underline;
+		text-underline-offset: 0.5rem;
+		text-decoration-thickness: 0.2rem;
+		text-decoration-color: var(--light);
 	}
 
 	& > p {

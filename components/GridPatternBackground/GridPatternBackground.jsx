@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import gridStyles from './GridPatternBackground.module.css'
 
 const GridPatternBackground = ({ pattern, bpm }) => {
@@ -27,7 +27,8 @@ const GridPatternBackground = ({ pattern, bpm }) => {
 						style={{
 							backgroundColor: cell === "1" ? (
 								t === beat ? "var(--mid)" : "var(--dark)"
-							) : "transparent"
+							) : "transparent",
+							borderColor: t === beat ? "var(--mid)" : "",
 						}}
 					/>
 				))

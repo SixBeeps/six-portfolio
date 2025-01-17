@@ -41,7 +41,7 @@ export default function Home() {
             </CleanImageCard>
           </CleanImageListing>
           <br />
-          <p>and here are some projects that I've worked on in the past</p>
+          <p>and here are some projects that I have worked on in the past</p>
           <CleanImageListing>
             <CleanImageCard
               src="/projects/grep-health.png"

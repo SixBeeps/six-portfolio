@@ -13,6 +13,7 @@
 	
 	height: 64px;
 	padding: 0;
+	margin-bottom: 64px;
 	background-color: var(--dark);
 }
 
@@ -23,7 +24,7 @@
 	height: 100%;
 	margin: 0;
 	padding: 0 8px;
-	
+
 	background-size: 100% 200%;
 	background-image: linear-gradient(to bottom, transparent 50%, var(--darker) 50%);
 	transition: background-position var(--transition-time);

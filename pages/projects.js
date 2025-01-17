@@ -14,19 +14,19 @@ export default function Home() {
       <h1>Projects</h1>
       <h2>Full-fleged Applications</h2>
       <ImageListing>
-        <ImageCard src="/projects/vocaloidparser.png" size="96" title="VOCALOIDParser" interactable>
+        <ImageCard src="/projects/vocaloidparser.png" size="128" title="VOCALOIDParser" interactable>
           <Link href="https://github.com/SixBeeps/VOCALOIDParser">Visit GitHub Repo</Link><br />
           <i>Library for parsing VOCALOID projects</i>
         </ImageCard>
-        <ImageCard src="/projects/grep-health.png" size="96" title="grep-health" interactable>
+        <ImageCard src="/projects/grep-health.png" size="128" title="grep-health" interactable>
           <Link href="https://devpost.com/software/grep-health">Visit Devpost Submission</Link><br />
           <i>Digests health advice into a readable format</i>
         </ImageCard>
-        <ImageCard src="/projects/whisker.png" size="96" title="Whisker" interactable>
+        <ImageCard src="/projects/whisker.png" size="128" title="Whisker" interactable>
           <Link href="https://relay-jam-3.epicgamer007.repl.co/">Visit website</Link><br />
           <i>Simple music sequencing tool</i>
         </ImageCard>
-        <ImageCard src="/projects/cyan.png" size="96" title="Project Cyan" interactable>
+        <ImageCard src="/projects/cyan.png" size="128" title="Project Cyan" interactable>
           <Link href="https://csds-393-chisel-cyan.vercel.app">Visit website</Link><br />
           <i>Plan courses based on schedule and reviews</i>
         </ImageCard>

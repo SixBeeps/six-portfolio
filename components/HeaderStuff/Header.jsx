@@ -11,9 +11,8 @@ function Header() {
 			</div>
 			<Hbutton href="/" value="Home" />
 			<Hbutton href="/projects" value="Projects" />
-			<Hbutton href="/quick-links" value="Quick Links" />
 			<Hbutton href="/status" value="Status" />
-			<Hbutton href="/about" value="About" />
+			{/* <Hbutton href="/about" value="About" /> */}
 		</div>
 	)
 }

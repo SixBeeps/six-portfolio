@@ -1,12 +1,40 @@
 .card {
-	height: 100vh;
-	padding: 32px;
-	overflow: hidden;
-	font-size: larger;
+	width: 100%;
+	min-height: 100vh;
 }
 
-.card > h1 {
-	font-size: min(20vh, 10vw);
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: min(100%, calc(100% - 2rem)); /* I love this line */
+	max-width: 1200px;
+	font-size: larger;
+
+	& > h1 {
+		font-size: min(10rem, 12vw);
+		line-height: 0.8;
+		margin: 1rem;
+		overflow-wrap: anywhere;
+		width: 100%;
+		color: var(--light);
+	}
+
+	& > h2 {
+		font-size: min(4rem, 6vw);
+		margin: 1rem;
+		margin-bottom: 2rem;
+	}
+
+	& > p {
+		font-size: min(18pt, 4vw);
+		font-family: monospace;
+		line-height: 1.5;
+		width: 100%;
+		margin: 1rem;
+	}
 }
 
 .dark {

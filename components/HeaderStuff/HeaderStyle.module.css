@@ -41,6 +41,22 @@
 	text-align: center;
 }
 
+.headerLink {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+
+	color: var(--lighter);
+	text-decoration: none;
+}
+
+.headerLinkIcon {
+	margin: 0 4px;
+}
+
 .logo {
 	position: relative;
 	width: 32px;

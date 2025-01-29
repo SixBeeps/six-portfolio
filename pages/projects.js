@@ -52,6 +52,14 @@ export default function Home() {
               <p>Site for understanding and learning about medical symptoms</p>
             </CleanImageCard>
             <CleanImageCard
+              src="/projects/sixswatch.png"
+              href="https://sixswatch.vercel.app/"
+              title="sixswatch"
+              size={100}
+            >
+              <p>Site for creating and storing color palettes</p>
+            </CleanImageCard>
+            <CleanImageCard
               src="/projects/mixxx.png"
               href="https://gist.github.com/SixBeeps/1632ae049c93f34ddf0feec4c673066f"
               title="Mixxx Scrobbler"

@@ -18,12 +18,13 @@ body {
 	scroll-behavior: smooth;
 }
 
-main {
-	/* maybe do something */
-}
-
 .main-content {
 	padding: 32px;
+}
+
+*::selection {
+	background: var(--mid);
+	color: var(--lighter);
 }
 
 h1,

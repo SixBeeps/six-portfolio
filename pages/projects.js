@@ -81,7 +81,7 @@ export default function Home() {
               title="paperurl"
               size={100}
             >
-              <p>Site for planning coursework based on schedule and reviews</p>
+              <p>Site for quick, accountless URL shortening</p>
             </CleanImageCard>
           </CleanImageListing>
       </LandingPageCard>

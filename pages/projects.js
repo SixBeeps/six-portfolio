@@ -75,6 +75,14 @@ export default function Home() {
             >
               <p>Site for planning coursework based on schedule and reviews</p>
             </CleanImageCard>
+            <CleanImageCard
+              src="/projects/paperurl.png"
+              href="https://github.com/SixBeeps/paperurl"
+              title="paperurl"
+              size={100}
+            >
+              <p>Site for planning coursework based on schedule and reviews</p>
+            </CleanImageCard>
           </CleanImageListing>
       </LandingPageCard>
       <Footer />

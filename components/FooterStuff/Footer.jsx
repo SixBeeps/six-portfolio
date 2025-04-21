@@ -5,7 +5,7 @@ function Footer() {
 	let year = (new Date()).getUTCFullYear();
 	return (
 		<div className={footerStyles.footer}>
-			Copyright &copy; SixBeeps {year}
+			Copyright &copy; Brandon Lee / SixBeeps {year}
 		</div>
 	)
 }

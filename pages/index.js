@@ -22,7 +22,7 @@ export default function Home() {
           }}
         />
         <h1>Hellooooooo.</h1>
-        <h2>I&apos;m SixBeeps</h2>
+        <h2>I&apos;m Brandon Lee</h2>
         <p>You might know me as a developer interested in full-stack web development and cloud computing.</p>
         <p>You might also know me as a music producer and DJ through a number of FL Studio and EDM adjacent communities.</p>
         <p>Or, you might not know me at all.</p>
@@ -60,7 +60,7 @@ export default function Home() {
       </LandingCard>
       <LandingCard theme="dark">
         <h2>Music</h2>
-        <p>As a moderator of the <Link href="https://discord.gg/flstudio">/r/FL_Studio Discord server</Link>, it shouldn&apos;t be a surprise that I produce in my free time. Here is my most recent release:</p>
+        <p>As a moderator of the <Link href="https://discord.gg/flstudio">largest FL Studio Discord server</Link>, it shouldn&apos;t be a surprise that I produce in my free time. Here is my most recent release:</p>
         <CleanImageListing>
           <CleanImageCard
             src="/2024collection.jpg"

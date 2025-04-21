@@ -5,7 +5,7 @@
 	align-items: center;
 	/* width: 100%; */
 
-	--sep: 2px solid var(--lighter);
+	--sep: 2px solid rgb(from var(--lighter) r g b / 0.5);
 }
 
 .card:nth-child(even) {

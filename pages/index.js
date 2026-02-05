@@ -63,7 +63,7 @@ export default function Home() {
         <p>As a moderator of the <Link href="https://discord.gg/flstudio">largest FL Studio Discord server</Link>, it shouldn&apos;t be a surprise that I produce in my free time. Here is my most recent release:</p>
         <CleanImageListing>
           <CleanImageCard
-            src="/2025collection.jpg"
+            src="/2025collection.png"
             size={300}
             title="The 2025 Collection"
           >

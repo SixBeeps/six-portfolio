@@ -63,13 +63,13 @@ export default function Home() {
         <p>As a moderator of the <Link href="https://discord.gg/flstudio">largest FL Studio Discord server</Link>, it shouldn&apos;t be a surprise that I produce in my free time. Here is my most recent release:</p>
         <CleanImageListing>
           <CleanImageCard
-            src="/2024collection.jpg"
+            src="/2025collection.jpg"
             size={300}
-            title="The 2024 Collection"
+            title="The 2025 Collection"
           >
-            <p><Link href="https://open.spotify.com/album/4FiYaFudvCkL2rvxmwU34I?si=6LOH3zRrQtmT2R-bEG_h_Q">Spotify</Link></p>
-            <p><Link href="https://www.youtube.com/playlist?list=OLAK5uy_mucXptLX4BeWockaQTbO9ogQq0Y6iVGs4">YouTube</Link></p>
-            <p><Link href="https://music.amazon.com/albums/B0DSJQYC8T">Amazon Music</Link></p>
+            <p><Link href="https://open.spotify.com/album/1PVPnxvfl2YtlDavpFLu93">Spotify</Link></p>
+            <p><Link href="https://www.youtube.com/watch?v=Qx-S0wqUKgc">YouTube</Link></p>
+            <p><Link href="https://amazon.com/music/player/albums/B0DSJQYC8T">Amazon Music</Link></p>
           </CleanImageCard>
         </CleanImageListing>
       </LandingCard>

@@ -23,13 +23,12 @@ export default function Home() {
               <p>Site for hosting creative competitions</p>
             </CleanImageCard>
             <CleanImageCard
-              src="/projects/vocaloidparser.png"
-              href="https://github.com/SixBeeps/VOCALOIDParser"
-              title="VOCALOIDParser"
+              src="/projects/uniquity.png"
+              href="https://github.com/SixBeeps/uniquity"
+              title="uniquity"
               size={100}
             >
-              <p>Get the <Link href="https://www.nuget.org/packages/VOCALOIDParser" target="_blank">NuGet package</Link></p>
-              <p>.NET library for working with VOCALOID5 projects</p>
+              <p>Android keyboard with every key ever</p>
             </CleanImageCard>
             <CleanImageCard
               src="/projects/lqw.png"
@@ -43,6 +42,15 @@ export default function Home() {
           <br />
           <p>and here are some projects that I have worked on in the past</p>
           <CleanImageListing>
+            <CleanImageCard
+              src="/projects/vocaloidparser.png"
+              href="https://github.com/SixBeeps/VOCALOIDParser"
+              title="VOCALOIDParser"
+              size={100}
+            >
+              <p>Get the <Link href="https://www.nuget.org/packages/VOCALOIDParser" target="_blank">NuGet package</Link></p>
+              <p>.NET library for working with VOCALOID5 projects</p>
+            </CleanImageCard>
             <CleanImageCard
               src="/projects/grep-health.png"
               href="https://devpost.com/software/grep-health"

@@ -1,7 +1,7 @@
 import React from 'react'
 import headerStyles from './HeaderStyle.module.css'
 import Hbutton from './Hbutton.jsx'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import Link from 'next/link'
 import { GithubCircle } from 'iconoir-react'
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import listStyles from './ImageListing.module.css'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import Link from 'next/link';
 
 class ImageCard extends React.Component {

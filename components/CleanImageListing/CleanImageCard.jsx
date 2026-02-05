@@ -1,6 +1,6 @@
 import React from 'react';
 import listStyles from './CleanImageListing.module.css';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 
 const CleanImageCard = ({ src, href, size, title, children }) => {

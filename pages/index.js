@@ -24,7 +24,7 @@ export default function Home() {
         <h1>Hellooooooo.</h1>
         <h2>I&apos;m Brandon Lee</h2>
         <p>You might know me as a developer interested in full-stack web development and cloud computing.</p>
-        <p>You might also know me as a music producer and DJ through a number of FL Studio and EDM adjacent communities.</p>
+        <p>You might also know me as a music producer and DJ through a number of music production and EDM adjacent communities.</p>
         <p>Or, you might not know me at all.</p>
         <p>Either way, welcome to my very green and mildly humble abode on the internet.</p>
       </LandingCard>
@@ -58,9 +58,9 @@ export default function Home() {
           </CleanImageCard>
         </CleanImageListing>
       </LandingCard>
-      <LandingCard theme="dark">
+      <LandingCard theme="pitch">
         <h2>Music</h2>
-        <p>As a moderator of the <Link href="https://discord.gg/flstudio">largest FL Studio Discord server</Link>, it shouldn&apos;t be a surprise that I produce in my free time. Here is my most recent release:</p>
+        <p>As a moderator of the <Link href="https://discord.gg/flstudio">largest FL Studio Discord server</Link>, it shouldn&apos;t be a surprise that I produce in my free time. If you&apos;re into Drum &amp; Bass, give my latest release a listen:</p>
         <CleanImageListing>
           <CleanImageCard
             src="/2025collection.png"
@@ -72,6 +72,7 @@ export default function Home() {
             <p><Link href="https://amazon.com/music/player/albums/B0DSJQYC8T">Amazon Music</Link></p>
           </CleanImageCard>
         </CleanImageListing>
+        <p>If you want some Drum &amp; Bass recommendations, try Fox Stevenson, Magnetude, and Cnof. Outside of that, you should also check out G Jones, Lyny, and Skryption.</p>
       </LandingCard>
       <Footer />
     </>

@@ -42,9 +42,14 @@
 }
 
 .dark {
-
+	background: unset;
 }
 
 .light {
 	background: var(--dark);
+}
+
+.pitch {
+	background: black;
+	--mid: var(--light);
 }

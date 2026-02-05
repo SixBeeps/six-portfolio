@@ -1,11 +1,19 @@
 import React from 'react';
 import listStyles from './CleanImageListing.module.css';
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from 'next/link';
 
 const CleanImageCard = ({ src, href, size, title, children }) => {
 	const imgElement = (
-		<Image src={src} alt={title} width={size || 150} height={size || 150} />
+		<Image
+            src={src}
+            alt={title}
+            width={size || 150}
+            height={size || 150}
+            style={{
+                maxWidth: "100%",
+                height: "auto"
+            }} />
 	)
 
 	return (

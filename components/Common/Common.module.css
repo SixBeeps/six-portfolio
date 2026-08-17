@@ -8,6 +8,26 @@
 	font-size: small;
 }
 
+.button {
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	border-radius: var(--rounding);
+	padding: 10px 18px;
+	margin: 6px;
+	gap: var(--pad);
+	background-color: var(--mid);
+	color: var(--lighter);
+	font-weight: bold;
+	transition: var(--transition-time);
+
+	&:hover {
+		background-color: var(--light);
+		color: var(--darker)
+	}
+}
+
 .dark {
 	background-color: var(--darkest);
 	color: var(--lighter);

@@ -3,7 +3,7 @@ import listStyles from './CleanImageListing.module.css';
 import Image from "next/image";
 import Link from 'next/link';
 
-const CleanImageCard = ({ src, href, size, title, children }) => {
+const CleanImageCard = ({ src, href, size, title, target='_blank', children }) => {
 	const imgElement = (
 		<Image
             src={src}
@@ -19,7 +19,7 @@ const CleanImageCard = ({ src, href, size, title, children }) => {
 	return (
 		<div className={listStyles.card}>
 			{href ? (
-				<Link href={href} target='_blank'>
+				<Link href={href} target={target}>
 					{imgElement}
 				</Link>
 			) : (
@@ -28,7 +28,7 @@ const CleanImageCard = ({ src, href, size, title, children }) => {
 			<div className={listStyles.content}>
 				<h3>
 					{href ? (
-						<Link href={href} target='_blank'>
+						<Link href={href} target={target}>
 							{title}
 						</Link>
 					) : (

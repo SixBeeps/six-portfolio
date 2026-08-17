@@ -32,7 +32,8 @@ export default function Home() {
             </CleanImageCard>
             <CleanImageCard
               src="/projects/lqw.png"
-              href="https://discord.com/api/oauth2/authorize?client_id=1197255386470826174&permissions=2147560448&scope=applications.commands+bot"
+              href="/lqw"
+              target=""
               title="LQWBot"
               size={100}
             >
